@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Augustine Isama developer portfolio">
+<title>Augustine Isama | Developer</title><link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header><a class="brand" href="#home">AUGUSTINE<span>.DEV</span></a>
+<nav><a href="#about">About</a><a href="#projects">Projects</a><a href="#api">API demo</a><a href="#ai">AI workflow</a></nav>
+<a href="https://github.com/Husten150">GitHub ↗</a></header>
+<main>
+<section class="hero" id="home"><div><small>● AVAILABLE FOR BUILDING</small>
+<h1>Turning ideas into <em>working software.</em></h1>
+<p>I'm Augustine Isama, a software developer focused on practical APIs, thoughtful web experiences, and solving real problems with code.</p>
+<a class="button" href="#projects">Explore my work ↓</a> <a class="button ghost" href="#api">Try the API ↗</a>
+<p class="meta">API STATUS: <b id="api-status">Checking…</b> · Based in Nigeria</p></div>
+<pre class="code">class Developer:
+  focus = [
+    "useful products",
+    "reliable APIs",
+    "continuous learning"
+  ]
+
+  def ship(self, idea):
+    return idea + " → reality"</pre></section>
+<section id="about"><small>01 / ABOUT</small><h2>Curiosity meets execution.</h2>
+<p>I enjoy learning by building: understanding a problem, designing a clear solution, implementing it, and testing the result. This site is a small full-stack example: FastAPI serves a responsive frontend and structured project data.</p>
+<p class="tags">Python · FastAPI · JavaScript · HTML/CSS · REST APIs · GitHub</p></section>
+<section id="projects"><small>02 / SELECTED WORK</small><h2>Projects worth exploring.</h2><div id="project-list" class="projects">Loading projects…</div></section>
+<section id="api"><small>03 / UNDER THE HOOD</small><h2>A tiny API. Try it yourself.</h2>
+<select id="endpoint"><option>/api/health</option><option>/api</option><option>/api/projects</option><option>/api/profile</option><option>/api/stats</option></select>
+<button id="run-request" class="button">Run request</button><p id="response-status">Waiting for request</p><pre id="api-response">{}</pre></section>
+<section id="ai"><small>04 / HOW I USE AI</small><h2>AI is a tool. Engineering is still the job.</h2>
+<div class="steps"><article><b>01 Understand</b><p>Define the problem, constraints, and acceptance checklist.</p></article>
+<article><b>02 Explore</b><p>Compare approaches, explain unfamiliar code, and identify edge cases.</p></article>
+<article><b>03 Build</b><p>Implement in small steps and review generated code carefully.</p></article>
+<article><b>04 Verify</b><p>Run tests, inspect failures, and validate behavior.</p></article></div></section>
+</main>
+<footer>Augustine.dev · Built with FastAPI · <span id="year"></span> · <a href="https://github.com/Husten150/developer-portfolio">Source</a></footer>
+<script src="/static/script.js" defer></script></body></html>
